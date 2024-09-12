@@ -1,0 +1,21 @@
+{
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-error",
+        "clang-diagnostic-c2x-extensions"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.exe":true
+    },
+    "files.associations": {
+        "1A.C": "cpp",
+        "StarRectangle.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+    
+}
