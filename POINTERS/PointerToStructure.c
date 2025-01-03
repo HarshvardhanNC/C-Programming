@@ -3,11 +3,12 @@ struct Student
 {
     int roll;
     char name[20];
-};
-struct Student s1={16,"HARSH"};
+}s1;
+
 int main()
 {
     struct Student* ptr=&s1;
+    ptr->roll=16;
     printf("ROLL OF FIRST STUDENT IS %d\n",s1.roll);
     printf("ROLL OF FIRST STUDENT IS %d\n",(*ptr).roll);// *ptr = s1 
     printf("ROLL OF FIRST STUDENT IS %d",ptr->roll); 

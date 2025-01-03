@@ -5,8 +5,7 @@ int main()
     int n;
     printf("ENTER YOUR CHARACTER: \n");
     scanf("%c",&ch);
-    "%d",ch;
-    n=ch;
+    n = (int)ch;
     if(n>=65&&n<=90)
     {
         printf("YOUR ENTERED CHARACTER IS IN UPPERCASE");

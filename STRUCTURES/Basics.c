@@ -21,6 +21,7 @@ int main()
     printf("MARKS OF FIRST STUDENT IS %f\n",s1.marks);
     printf("ROLL OF FIRST STUDENT IS %s\n",s1.name);
     s3.roll=45;
-    printf("%d",s3.roll);
+    printf("%d\n",s3.roll);
+    printf("%d",sizeof(s1));
     return 0;
 }
